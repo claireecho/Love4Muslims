@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="Yoi-wE-KbP">
             <objects>
-                <viewController id="5gt-Ad-Zt7" sceneMemberID="viewController">
+                <viewController id="5gt-Ad-Zt7" customClass="ViewController" customModule="Love4Muslims" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s2F-H8-TYb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,6 +23,7 @@
                                 <rect key="frame" x="41" y="399" width="332" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -31,14 +32,32 @@
                                 <rect key="frame" x="41" y="497" width="332" height="173"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGL-9H-vp4">
-                                <rect key="frame" x="100" y="691" width="214" height="84"/>
+                                <rect key="frame" x="100" y="691" width="214" height="77"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sendPressed:" destination="5gt-Ad-Zt7" eventType="touchUpInside" id="l5N-Pf-8hv"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Enter a message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1b-9x-bvA">
+                                <rect key="frame" x="170" y="464" width="203" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.63206363341968919" green="0.0076397984251273098" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Enter a name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IE3-nZ-epe">
+                                <rect key="frame" x="131" y="358" width="242" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.63206363341968919" green="0.0076397984251273098" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6gA-ZA-7hN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -50,10 +69,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8lf-jx-ezp"/>
+                    <connections>
+                        <outlet property="messageError" destination="g1b-9x-bvA" id="hNt-8D-fTf"/>
+                        <outlet property="messageInput" destination="SGy-eD-qws" id="BFD-hZ-Kr5"/>
+                        <outlet property="nameError" destination="IE3-nZ-epe" id="sbJ-6o-0qc"/>
+                        <outlet property="nameInput" destination="M5t-Gj-dRZ" id="dpj-cm-X3s"/>
+                        <outlet property="sendButton" destination="wGL-9H-vp4" id="jpC-0C-VQ9"/>
+                        <segue destination="ij9-8b-lfP" kind="show" identifier="toHome" id="bhg-5F-mlp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A2V-wG-ZoA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-154" y="73"/>
+            <point key="canvasLocation" x="-377" y="-141"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JVK-Cv-D3r">
