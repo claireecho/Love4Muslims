@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8A293642544D76600323638 /* Love For Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Love For Muslims.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A293642544D76600323638 /* Love4Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Love4Muslims.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A293672544D76600323638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8A293692544D76600323638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C8A2936B2544D76600323638 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C8A293652544D76600323638 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8A293642544D76600323638 /* Love For Muslims.app */,
+				C8A293642544D76600323638 /* Love4Muslims.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8A293632544D76600323638 /* Love For Muslims */ = {
+		C8A293632544D76600323638 /* Love4Muslims */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8A293782544D76600323638 /* Build configuration list for PBXNativeTarget "Love For Muslims" */;
+			buildConfigurationList = C8A293782544D76600323638 /* Build configuration list for PBXNativeTarget "Love4Muslims" */;
 			buildPhases = (
 				C8A293602544D76600323638 /* Sources */,
 				C8A293612544D76600323638 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Love For Muslims";
+			name = Love4Muslims;
 			productName = "Anti-Islamophobia";
-			productReference = C8A293642544D76600323638 /* Love For Muslims.app */;
+			productReference = C8A293642544D76600323638 /* Love4Muslims.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C8A2935F2544D76600323638 /* Build configuration list for PBXProject "Love For Muslims" */;
+			buildConfigurationList = C8A2935F2544D76600323638 /* Build configuration list for PBXProject "Love4Muslims" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8A293632544D76600323638 /* Love For Muslims */,
+				C8A293632544D76600323638 /* Love4Muslims */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8A2935F2544D76600323638 /* Build configuration list for PBXProject "Love For Muslims" */ = {
+		C8A2935F2544D76600323638 /* Build configuration list for PBXProject "Love4Muslims" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8A293762544D76600323638 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8A293782544D76600323638 /* Build configuration list for PBXNativeTarget "Love For Muslims" */ = {
+		C8A293782544D76600323638 /* Build configuration list for PBXNativeTarget "Love4Muslims" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C8A293792544D76600323638 /* Debug */,
