@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ij9-8b-lfP">
-    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -9,35 +9,89 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="QaT-od-4IR">
+            <objects>
+                <viewController id="wq8-RH-b8e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CF7-sW-xYS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FeedbackPage" translatesAutoresizingMaskIntoConstraints="NO" id="OuC-QK-7Ld">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGL-9H-vp4">
+                                <rect key="frame" x="102" y="689" width="214" height="79"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SGy-eD-qws">
+                                <rect key="frame" x="41" y="495" width="332" height="186"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M5t-Gj-dRZ">
+                                <rect key="frame" x="41" y="398" width="332" height="46"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Z6a-h6-apn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OuC-QK-7Ld" firstAttribute="trailing" secondItem="CF7-sW-xYS" secondAttribute="trailing" id="OzD-kS-6bi"/>
+                            <constraint firstItem="OuC-QK-7Ld" firstAttribute="top" secondItem="CF7-sW-xYS" secondAttribute="top" id="XP2-pw-yrw"/>
+                            <constraint firstItem="OuC-QK-7Ld" firstAttribute="bottom" secondItem="CF7-sW-xYS" secondAttribute="bottom" id="ft1-jo-0bC"/>
+                            <constraint firstItem="OuC-QK-7Ld" firstAttribute="leading" secondItem="CF7-sW-xYS" secondAttribute="leading" id="hWv-fg-PaS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ND7-8G-OSI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yf8-Sr-aqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.579710144927539" y="-1.3392857142857142"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="JVK-Cv-D3r">
             <objects>
                 <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="ij9-8b-lfP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xrB-I4-diZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Islamophobia" translatesAutoresizingMaskIntoConstraints="NO" id="NpD-7z-cVr">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sqA-xw-Omb">
-                                <rect key="frame" x="89" y="270" width="139" height="52"/>
+                                <rect key="frame" x="91" y="426" width="233" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="LZj-I7-GPR" kind="show" id="Lrl-1Z-Wt1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcC-1N-9hi">
-                                <rect key="frame" x="89" y="360" width="139" height="52"/>
+                                <rect key="frame" x="91" y="546" width="233" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="OoS-KC-Y8R" kind="show" id="sUY-fy-M5Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOa-ps-Mv1">
-                                <rect key="frame" x="89" y="446" width="139" height="52"/>
+                                <rect key="frame" x="91" y="659" width="233" height="82"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="8lA-We-ePY" kind="show" id="fQj-RT-jQ2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MK-Fp-JI2">
+                                <rect key="frame" x="91" y="767" width="233" height="79"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="wq8-RH-b8e" kind="show" id="h6P-kl-5pn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -54,18 +108,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2J-Vv-yGZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="911.59420289855075" y="99.776785714285708"/>
+            <point key="canvasLocation" x="911.25" y="99.295774647887328"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8ga-Du-h5Y">
             <objects>
                 <viewController id="8lA-We-ePY" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PG0-S1-K1V">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HowPage" translatesAutoresizingMaskIntoConstraints="NO" id="KBh-pX-56C">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fsO-4s-XiZ"/>
@@ -88,11 +142,11 @@
             <objects>
                 <viewController id="OoS-KC-Y8R" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JHQ-vz-gnK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WherePage" translatesAutoresizingMaskIntoConstraints="NO" id="wwn-3y-46v">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4ry-ug-SB1"/>
@@ -115,11 +169,11 @@
             <objects>
                 <viewController id="LZj-I7-GPR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zMX-os-DQy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatPage" translatesAutoresizingMaskIntoConstraints="NO" id="IVf-fH-STo">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="r0j-hO-ONw"/>
@@ -139,6 +193,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="FeedbackPage" width="1080" height="1920"/>
         <image name="HowPage" width="1080" height="1920"/>
         <image name="Islamophobia" width="1080" height="1920"/>
         <image name="WhatPage" width="1080" height="1920"/>

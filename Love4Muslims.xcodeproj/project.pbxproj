@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		C8A2936F2544D76600323638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A2936D2544D76600323638 /* Main.storyboard */; };
 		C8A293712544D76600323638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A293702544D76600323638 /* Assets.xcassets */; };
 		C8A293742544D76600323638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A293722544D76600323638 /* LaunchScreen.storyboard */; };
-		C8A2938225453B5C00323638 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A2938125453B5C00323638 /* GoogleService-Info.plist */; };
+		C8A2939625453D9700323638 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A2939525453D9700323638 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		C8A293702544D76600323638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8A293732544D76600323638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8A293752544D76600323638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8A2938125453B5C00323638 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8A2939525453D9700323638 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,6 @@
 				3B57B3950A187A5CD5CA3279 /* Pods-Love4Muslims.debug.xcconfig */,
 				BD4FE9FFB0151F919891993F /* Pods-Love4Muslims.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,7 +88,7 @@
 				C8A2936D2544D76600323638 /* Main.storyboard */,
 				C8A293702544D76600323638 /* Assets.xcassets */,
 				C8A293722544D76600323638 /* LaunchScreen.storyboard */,
-				C8A2938125453B5C00323638 /* GoogleService-Info.plist */,
+				C8A2939525453D9700323638 /* GoogleService-Info.plist */,
 				C8A293752544D76600323638 /* Info.plist */,
 			);
 			path = "Anti-Islamophobia";
@@ -155,7 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A293742544D76600323638 /* LaunchScreen.storyboard in Resources */,
-				C8A2938225453B5C00323638 /* GoogleService-Info.plist in Resources */,
+				C8A2939625453D9700323638 /* GoogleService-Info.plist in Resources */,
 				C8A293712544D76600323638 /* Assets.xcassets in Resources */,
 				C8A2936F2544D76600323638 /* Main.storyboard in Resources */,
 			);
@@ -370,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "claireecho.Anti-Islamophobia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +389,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "claireecho.Anti-Islamophobia";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
