@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8BE254E005018044308F3F /* Pods_Love4Muslims.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B19E6558F99A1AADEFB5794 /* Pods_Love4Muslims.framework */; };
 		C8A293682544D76600323638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A293672544D76600323638 /* AppDelegate.swift */; };
 		C8A2936A2544D76600323638 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A293692544D76600323638 /* SceneDelegate.swift */; };
 		C8A2936C2544D76600323638 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A2936B2544D76600323638 /* ViewController.swift */; };
 		C8A2936F2544D76600323638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A2936D2544D76600323638 /* Main.storyboard */; };
 		C8A293712544D76600323638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A293702544D76600323638 /* Assets.xcassets */; };
 		C8A293742544D76600323638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A293722544D76600323638 /* LaunchScreen.storyboard */; };
+		C8A2938225453B5C00323638 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A2938125453B5C00323638 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B19E6558F99A1AADEFB5794 /* Pods_Love4Muslims.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Love4Muslims.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B57B3950A187A5CD5CA3279 /* Pods-Love4Muslims.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love4Muslims.debug.xcconfig"; path = "Target Support Files/Pods-Love4Muslims/Pods-Love4Muslims.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4FE9FFB0151F919891993F /* Pods-Love4Muslims.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Love4Muslims.release.xcconfig"; path = "Target Support Files/Pods-Love4Muslims/Pods-Love4Muslims.release.xcconfig"; sourceTree = "<group>"; };
 		C8A293642544D76600323638 /* Love4Muslims.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Love4Muslims.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A293672544D76600323638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8A293692544D76600323638 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		C8A293702544D76600323638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8A293732544D76600323638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8A293752544D76600323638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A2938125453B5C00323638 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8BE254E005018044308F3F /* Pods_Love4Muslims.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022D6B115F0E2DC9A5A95E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B19E6558F99A1AADEFB5794 /* Pods_Love4Muslims.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62BEE283656DC5EF52320084 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B57B3950A187A5CD5CA3279 /* Pods-Love4Muslims.debug.xcconfig */,
+				BD4FE9FFB0151F919891993F /* Pods-Love4Muslims.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C8A2935B2544D76600323638 = {
 			isa = PBXGroup;
 			children = (
 				C8A293662544D76600323638 /* Anti-Islamophobia */,
 				C8A293652544D76600323638 /* Products */,
+				62BEE283656DC5EF52320084 /* Pods */,
+				022D6B115F0E2DC9A5A95E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +89,7 @@
 				C8A2936D2544D76600323638 /* Main.storyboard */,
 				C8A293702544D76600323638 /* Assets.xcassets */,
 				C8A293722544D76600323638 /* LaunchScreen.storyboard */,
+				C8A2938125453B5C00323638 /* GoogleService-Info.plist */,
 				C8A293752544D76600323638 /* Info.plist */,
 			);
 			path = "Anti-Islamophobia";
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8A293782544D76600323638 /* Build configuration list for PBXNativeTarget "Love4Muslims" */;
 			buildPhases = (
+				FC7B1FBF6B55D9F576786D30 /* [CP] Check Pods Manifest.lock */,
 				C8A293602544D76600323638 /* Sources */,
 				C8A293612544D76600323638 /* Frameworks */,
 				C8A293622544D76600323638 /* Resources */,
+				566B536DDDAA619B72EEFE65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A293742544D76600323638 /* LaunchScreen.storyboard in Resources */,
+				C8A2938225453B5C00323638 /* GoogleService-Info.plist in Resources */,
 				C8A293712544D76600323638 /* Assets.xcassets in Resources */,
 				C8A2936F2544D76600323638 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		566B536DDDAA619B72EEFE65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love4Muslims/Pods-Love4Muslims-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Love4Muslims/Pods-Love4Muslims-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Love4Muslims/Pods-Love4Muslims-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7B1FBF6B55D9F576786D30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Love4Muslims-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8A293602544D76600323638 /* Sources */ = {
@@ -283,6 +356,7 @@
 		};
 		C8A293792544D76600323638 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B57B3950A187A5CD5CA3279 /* Pods-Love4Muslims.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +376,7 @@
 		};
 		C8A2937A2544D76600323638 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4FE9FFB0151F919891993F /* Pods-Love4Muslims.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
